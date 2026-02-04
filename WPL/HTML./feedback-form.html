@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mumbai Metro Feedback Form</title>
+</head>
+<body style="margin:0; text-align:center; font-family:Arial;">
+
+<header style="background-color:#e3f2fd; padding:15px;">
+    <h1>Mumbai Metro Citizen Feedback</h1>
+</header>
+
+<hr>
+
+<section style="background-color:#f1f8e9; padding:20px;">
+    <p>
+        Please share your feedback or complaints regarding Mumbai Metro services.
+    </p>
+</section>
+
+<hr>
+
+<section style="background-color:#fffde7; padding:25px; margin-bottom:80px;">
+
+<form method="get">
+
+    <p>
+        <label>
+            Name:<br>
+            <input type="text" name="name" required>
+        </label>
+    </p>
+
+    <p>
+        <label>
+            Contact Number:<br>
+            <input type="tel" name="contact" required>
+        </label>
+    </p>
+
+    <p>
+        <label>
+            Select Metro Line:<br>
+            <select name="line" required>
+                <option value="">-- Select Line --</option>
+                <option value="Line1">Metro Line 1</option>
+                <option value="Line2A">Metro Line 2A</option>
+                <option value="Line7">Metro Line 7</option>
+            </select>
+        </label>
+    </p>
+
+    <p>
+        <label>
+            Feedback:<br>
+            <textarea name="feedback" rows="4" cols="35" required></textarea>
+        </label>
+    </p>
+
+    <button type="submit">Submit Feedback</button>
+
+</form>
+
+</section>
+
+<footer style="
+    background-color:#e0e0e0;
+    padding:10px;
+    position:fixed;
+    bottom:0;
+    width:100%;">
+    <p>&copy; Mumbai Metro Authority</p>
+</footer>
+
+</body>
+</html>

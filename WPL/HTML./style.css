@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+    background-image: url(oh.jpg);
+    background-size:1600px;
+    background-position: center;
+}
+input::placeholder {
+    color: gray;
+}
+input[type="text"] {
+    color: rgb(4, 118, 36);
+}
+h1{
+    color: rgb(161, 190, 73);
+}
+p{
+    color: rgb(161, 190, 73);
+}
